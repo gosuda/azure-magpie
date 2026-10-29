@@ -1,4 +1,4 @@
-# Azure-Winged Magpie (`gosuda/magpie`)
+# Azure-Winged Magpie (`gosuda/azure-magpie`)
 
 Azure-Winged Magpie is the Scandinavian SaaS diff link generator, snapshot explorer, and edge webhook router for the `gosuda/0` CAS monorepo. The project compiles Vanilla TypeScript (`src/app.ts` and `src/worker.ts`) and Pure CSS (`public/styles.css`) into a Cloudflare Pages bundle (`public/`).
 
@@ -28,5 +28,5 @@ Run the unit test suite and compile the browser and edge bundles using Bun.
 ```bash
 bun test
 bun run build
-npx wrangler pages deploy public --project-name=gosuda-magpie
+npx wrangler pages deploy public --project-name=azure-magpie
 ```

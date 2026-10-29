@@ -9,7 +9,7 @@ var MOUNTED_PROJECTS = [
   { prefix: "ipc/hqq/HQQ", mirror: "gosuda/HQQ" },
   { prefix: "ipc/hqq/hqq-sqlite3", mirror: "gosuda/hqq-sqlite3" },
   { prefix: "ipc/hqq/hqq-zstd", mirror: "gosuda/hqq-zstd" },
-  { prefix: "devtools/magpie", mirror: "gosuda/magpie" }
+  { prefix: "devtools/azure-magpie", mirror: "gosuda/azure-magpie" }
 ];
 var cachedRefs = null;
 var cachedInstallationId = null;
